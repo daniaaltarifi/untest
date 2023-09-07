@@ -1,0 +1,142 @@
+.price{
+    font-weight: bold;
+    font-size: 22px;
+}
+.color {
+    width: 30px;
+    height: 30px;
+    /* border: 2px solid red;  */
+    border-radius: 50%;
+    margin: 2%;
+  }
+  .container_box{
+    display: flex;
+
+margin-bottom: 2%;
+font-size: 14px;
+}
+.model_space{
+    margin: 3%;
+
+}
+
+.Deep_Purple{
+    background-color: #62596A;
+
+}
+.Silver{
+    background-color: #EFF1F1;
+}
+.Space_Black{
+    background-color: #403D3B;
+}
+.Gold{
+    background-color: #F6EAD2;
+}
+  .btn_productDetails{
+    background-color: #27579A;
+ 
+}
+  .btn_details_trade{
+    background-color: #668ABC;
+    border-radius:12px ;
+    -webkit-border-radius:12px ;
+    -moz-border-radius:12px ;
+    -ms-border-radius:12px ;
+    -o-border-radius:12px ;
+}
+
+/* / slider image / */
+
+#content-wrapper{
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; */
+    display: grid;
+    justify-content: center;
+}
+
+.column{
+    width: 850px;
+    padding: 10px;
+
+}
+
+#featured{
+    max-width: 500px;
+    height:300px;
+    object-fit: cover;
+    cursor: pointer;
+    margin-bottom: 9%;
+    /* / border: 2px solid black; / */
+
+}
+
+.thumbnail{
+    object-fit: cover;
+    max-width: 180px;
+    height: 100px;
+    cursor: pointer;
+    opacity: 0.5;
+    margin: 5px;
+    /* / border: 2px solid black; / */
+
+}
+
+.thumbnail:hover{
+    opacity:1;
+}
+
+.active{
+    opacity: 1;
+}
+
+#slide-wrapper{
+    max-width: 800px;
+    display: flex;
+    min-height: 100px;
+    align-items: center;
+}
+
+#slider{
+    width: 1440px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+/* / margin-right: 2%; */ 
+}
+
+
+
+/* .arrow{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: .3s;
+} */
+.btn_details_cart{
+    background-color: #27579A;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+.product_details{
+    margin-top: 8%;
+}
+
+@media screen and (max-width:768px) {
+   #slider{
+    width: 340px;
+
+   } 
+.column{
+    width: 250px;
+
+}
+/* #featured{
+    max-width: 19px;
+} */
+}

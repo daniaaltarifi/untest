@@ -1,0 +1,37 @@
+
+.compare_title{
+text-align: center;
+margin: 4% 0 2% 0;}
+.card_info{
+  background-color: #F9F9F9;
+  width:340px;
+}
+.more_info_btn{
+  border-color: #27579A;
+  color: #27579A;
+
+}
+.more_info_btn:hover{
+background-color: #27579A;
+}
+.dropDown{
+  width: 50%;
+  border: none;
+}
+.select_box{
+  height:40px;
+  overflow-y:auto;
+    width:200px;
+    border: none;
+    margin-bottom: 10%;
+}
+
+/* / */
+
+@media screen and (max-width:768px) {
+  .card_info{
+    width: 100%;
+  }
+}
+/* Compare.css */
+
